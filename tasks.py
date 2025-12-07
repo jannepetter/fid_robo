@@ -1,6 +1,6 @@
 from robocorp.tasks import task
 
-from test_app_hommat import TestStuff
+from hello_private import say_hello
 
 
 @task
@@ -8,5 +8,5 @@ def minimal_task():
     message = "Hello"
     message = message + " World!"
     print("messa", message)
-    t = TestStuff("oho")
-    t.say()
+    hello = say_hello()
+    print(hello)

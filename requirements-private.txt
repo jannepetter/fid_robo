@@ -1,1 +1,2 @@
-git+https://$GITHUB_TOKEN@github.com/jannepetter/test_pypi.git@v0.1.1
+https://$GITHUB_TOKEN@github.com/jannepetter/HelloPrivate/releases/download/v0.0.4/helloprivate-0.0.4-py3-none-any.whl
+# git+https://$GITHUB_TOKEN@github.com/jannepetter/HelloPrivate.git@v0.0.4 # rebuilds the wheel
